@@ -12,4 +12,17 @@ config_version=5
 
 config/name="250315_BrickTest"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/images/icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gut/plugin.cfg", "res://addons/script-ide/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "blue",
+"res://classes/": "purple",
+"res://scenes/": "orange",
+"res://tests/": "red"
+}
