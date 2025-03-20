@@ -1,8 +1,7 @@
-class_name Brick1x1 extends Node3D
-
+extends Node3D
 
 func _ready():
-	var obj_mesh = load("res://Brick1x1.obj")  # Load OBJ file
+	var obj_mesh = load("res://assets/meshes/Brick1x1.obj")  # Load OBJ file
 	if obj_mesh is ArrayMesh:
 		var mesh_instance = MeshInstance3D.new()
 		mesh_instance.mesh = obj_mesh  # Assign the loaded ArrayMesh
@@ -13,7 +12,7 @@ func _ready():
 	else:
 		print("Failed to load OBJ as ArrayMesh")
 		
-	var obj_mesh2 = load("res://Brick1x1.obj")  # Load OBJ file
+	var obj_mesh2 = load("res://assets/meshes/Brick1x1.obj")  # Load OBJ file
 	if obj_mesh2 is ArrayMesh:
 		var mesh_instance2 = MeshInstance3D.new()
 		mesh_instance2.mesh = obj_mesh2  # Assign the loaded ArrayMesh

@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="250315_BrickTest"
+run/main_scene="uid://c1t1k5woi53gw"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://assets/images/icon.svg"
 
@@ -22,7 +23,7 @@ enabled=PackedStringArray("res://addons/gut/plugin.cfg", "res://addons/script-id
 
 folder_colors={
 "res://assets/": "blue",
-"res://classes/": "purple",
 "res://scenes/": "orange",
+"res://scripts/": "purple",
 "res://tests/": "red"
 }
